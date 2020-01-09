@@ -31,7 +31,6 @@ public class SortTestHelper {
             Method sortMethod = sortClass.getMethod("sort", new Class[]{Comparable[].class});
             // 排序参数只有一个，是可比较数组arr
             Object[] params = new Object[]{arr};
-
             long startTime = System.currentTimeMillis();
             // 调用排序函数
             sortMethod.invoke(null, params);

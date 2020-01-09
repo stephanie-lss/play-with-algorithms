@@ -2,6 +2,8 @@ import java.lang.reflect.Method;
 import java.util.Random;
 
 public class SortTestHelper {
+    public SortTestHelper() {
+    }
 
     public static Integer[] generateRandomArray(int n, int rangeL, int rangeR) {
         assert rangeL <= rangeR;
