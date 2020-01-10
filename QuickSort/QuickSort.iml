@@ -7,7 +7,9 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="Homework" />
     <orderEntry type="module" module-name="SortTestTool" />
+    <orderEntry type="module" module-name="MergeSort" />
     <orderEntry type="module" module-name="InsertionSort" />
   </component>
 </module>

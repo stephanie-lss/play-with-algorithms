@@ -6,7 +6,7 @@ import java.util.Arrays;
  */
 public class Main {
     public static void main(String[] args) {
-        int n = 1000000;
+        int n = 100000;
         Integer[] arr = SortTestHelper.generateRandomArray(n, 0, n);
         Integer[] arr2 = Arrays.copyOfRange(arr, 0, arr.length);
         SortTestHelper.testSort("MergeSort", arr);

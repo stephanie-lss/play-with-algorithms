@@ -9,10 +9,21 @@ public class InsertionSort {
             for (int j = i; j > 0; j--) {
                 if (arr[j].compareTo(arr[j - 1]) < 0) {
                     swap(arr, j, j - 1);
-                }else {
+                } else {
                     break;
                 }
             }
+        }
+    }
+
+    public static void insertionSort(Comparable[] arr, int l, int r) {
+        for (int i = l + 1; i <= r; i++) {
+            Comparable e = arr[i];
+            int j;
+            for (j = i; j > l && e.compareTo(arr[j - 1]) < 0; j--) {
+                arr[j] = arr[j - 1];
+            }
+            arr[j] = e;
         }
     }
 
@@ -25,7 +36,7 @@ public class InsertionSort {
     public static void main(String[] args) {
         int n = 100000;
         Integer[] array = SortTestHelper.generateRandomArray(n, 0, n);
-        SortTestHelper.testSort("InsertionSort",array);
-        SortTestHelper.testSort("SelectionSort",array);
+        SortTestHelper.testSort("InsertionSort", array);
+        SortTestHelper.testSort("SelectionSort", array);
     }
 }

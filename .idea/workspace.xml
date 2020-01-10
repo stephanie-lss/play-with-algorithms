@@ -5,15 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a3913d8-fccb-478a-a5f7-be86afc0db19" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/MergeSort/MergeSort.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SortTestTool/SortTestTool.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/Homework.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QuickSort/QuickSort.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/InsertionSort/src/SortTestHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/InsertionSort/src/SortTestHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sorting-Basic/src/SortTestHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/Sorting-Basic/src/SortTestHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InsertionSort/SortTestHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/InsertionSort/SortTestHelper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sorting-Basic/SortTestHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sorting-Basic/SortTestHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InsertionSort/src/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/InsertionSort/src/InsertionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MergeSort/MergeSort.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MergeSort/MergeSort.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MergeSort/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/MergeSort/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MergeSort/src/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/MergeSort/src/MergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SortTestTool/src/SortTestHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/SortTestTool/src/SortTestHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/InsertionSort/InsertionSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/InsertionSort/InsertionSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MergeSort/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MergeSort/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MergeSort/MergeSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MergeSort/MergeSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SortTestTool/SortTestHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SortTestTool/SortTestHelper.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,8 +39,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MergeSort/src/MergeSort2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="582">
-              <caret line="64" column="8" selection-start-line="64" selection-start-column="8" selection-end-line="65" selection-end-column="50" />
+            <state relative-caret-position="324">
+              <caret line="18" column="39" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -46,16 +49,55 @@
         <entry file="file://$PROJECT_DIR$/MergeSort/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MergeSort/src/MergeSort3.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/QuickSort/src/QuickSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="76" column="19" lean-forward="true" selection-start-line="76" selection-start-column="19" selection-end-line="76" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SortTestTool/src/SortTestHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="181">
+              <caret line="53" column="23" selection-start-line="53" selection-start-column="23" selection-end-line="53" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MergeSort/src/MergeSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+            <state relative-caret-position="314">
+              <caret line="43" column="39" selection-start-line="43" selection-start-column="39" selection-end-line="43" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/InsertionSort/src/InsertionSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="262">
+              <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -80,16 +122,18 @@
         <option value="$PROJECT_DIR$/Sorting-Basic/src/Student.java" />
         <option value="$PROJECT_DIR$/Sorting-Basic/src/SelectionSort.java" />
         <option value="$PROJECT_DIR$/Sorting-Basic/src/SortTestHelper.java" />
-        <option value="$PROJECT_DIR$/InsertionSort/src/InsertionSort.java" />
         <option value="$PROJECT_DIR$/InsertionSort/src/SortTestHelper.java" />
         <option value="$PROJECT_DIR$/InsertionSort/src/InsertionSort2.java" />
-        <option value="$PROJECT_DIR$/SortTestTool/src/SortTestHelper.java" />
         <option value="$PROJECT_DIR$/homework/src/BubbleSort.java" />
         <option value="$PROJECT_DIR$/homework/src/BubbleSort2.java" />
-        <option value="$PROJECT_DIR$/homework/src/ShellSort.java" />
         <option value="$PROJECT_DIR$/MergeSort/src/MergeSort2.java" />
-        <option value="$PROJECT_DIR$/MergeSort/src/MergeSort.java" />
+        <option value="$PROJECT_DIR$/InsertionSort/src/InsertionSort.java" />
+        <option value="$PROJECT_DIR$/homework/src/ShellSort.java" />
         <option value="$PROJECT_DIR$/MergeSort/src/Main.java" />
+        <option value="$PROJECT_DIR$/MergeSort/src/MergeSort3.java" />
+        <option value="$PROJECT_DIR$/MergeSort/src/MergeSort.java" />
+        <option value="$PROJECT_DIR$/SortTestTool/src/SortTestHelper.java" />
+        <option value="$PROJECT_DIR$/QuickSort/src/QuickSort.java" />
       </list>
     </option>
   </component>
@@ -111,9 +155,9 @@
     <option name="jreName" value="1.8" />
     <option name="vmOptions" value="-DarchetypeCatalog=internal -Dfile.encoding=GB2312" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="837" />
-    <option name="y" value="183" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="636" />
+    <option name="y" value="242" />
     <option name="width" value="1265" />
     <option name="height" value="1106" />
   </component>
@@ -136,7 +180,12 @@
             </path>
             <path>
               <item name="play-with-algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Sorting-Basic" type="462c0819:PsiDirectoryNode" />
+              <item name="QuickSort" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="play-with-algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QuickSort" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -189,14 +238,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="BubbleSort2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BubbleSort2" />
-      <module name="Homework" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.QuickSort">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="MergeSort" />
@@ -211,9 +253,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeSort2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MergeSort2" />
+    <configuration name="MergeSort3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MergeSort3" />
       <module name="MergeSort" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="QuickSort" />
+      <module name="QuickSort" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -227,11 +276,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.MergeSort2" />
+        <item itemvalue="Application.QuickSort" />
         <item itemvalue="Application.MergeSort" />
+        <item itemvalue="Application.MergeSort3" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.ShellSort" />
-        <item itemvalue="Application.BubbleSort2" />
       </list>
     </recent_temporary>
   </component>
@@ -247,18 +296,18 @@
       <updated>1578490447661</updated>
       <workItem from="1578490452056" duration="4119000" />
       <workItem from="1578537596322" duration="2764000" />
-      <workItem from="1578556055916" duration="19658000" />
+      <workItem from="1578556055916" duration="32879000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26541000" />
+    <option name="totallyTimeSpent" value="39762000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="32" width="1936" height="1176" extended-state="6" />
+    <frame x="636" y="242" width="1265" height="1106" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.10202991" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15903413" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -267,15 +316,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Debug" order="2" weight="0.3828351" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.2150434" />
+      <window_info anchor="bottom" id="Debug" order="2" weight="0.38262668" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.2574974" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32690454" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32678387" />
       <window_info anchor="bottom" id="Problems" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" />
@@ -363,13 +412,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/InsertionSort/src/InsertionSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/homework/src/BubbleSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
@@ -391,9 +433,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/MergeSort/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homework/src/ShellSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="24" column="46" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InsertionSort/src/InsertionSort2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MergeSort/src/MergeSort2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="39" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InsertionSort/src/InsertionSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MergeSort/src/MergeSort3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MergeSort/src/MergeSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="43" column="39" selection-start-line="43" selection-start-column="39" selection-end-line="43" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/SortTestTool/src/SortTestHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
+        <state relative-caret-position="181">
           <caret line="53" column="23" selection-start-line="53" selection-start-column="23" selection-end-line="53" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -401,38 +492,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/InsertionSort/src/InsertionSort2.java">
+    <entry file="file://$PROJECT_DIR$/QuickSort/src/QuickSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/homework/src/ShellSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MergeSort/src/MergeSort2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="582">
-          <caret line="64" column="8" selection-start-line="64" selection-start-column="8" selection-end-line="65" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MergeSort/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MergeSort/src/MergeSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+        <state relative-caret-position="306">
+          <caret line="76" column="19" lean-forward="true" selection-start-line="76" selection-start-column="19" selection-end-line="76" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -486,7 +549,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>MergeSort</last-edited>
+          <last-edited>QuickSort</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

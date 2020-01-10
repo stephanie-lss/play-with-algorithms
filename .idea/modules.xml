@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/homework/Homework.iml" filepath="$PROJECT_DIR$/homework/Homework.iml" />
       <module fileurl="file://$PROJECT_DIR$/InsertionSort/InsertionSort.iml" filepath="$PROJECT_DIR$/InsertionSort/InsertionSort.iml" />
       <module fileurl="file://$PROJECT_DIR$/MergeSort/MergeSort.iml" filepath="$PROJECT_DIR$/MergeSort/MergeSort.iml" />
+      <module fileurl="file://$PROJECT_DIR$/QuickSort/QuickSort.iml" filepath="$PROJECT_DIR$/QuickSort/QuickSort.iml" />
       <module fileurl="file://$PROJECT_DIR$/SortTestTool/SortTestTool.iml" filepath="$PROJECT_DIR$/SortTestTool/SortTestTool.iml" />
       <module fileurl="file://$PROJECT_DIR$/Sorting-Basic/Sorting-Basic.iml" filepath="$PROJECT_DIR$/Sorting-Basic/Sorting-Basic.iml" />
     </modules>
