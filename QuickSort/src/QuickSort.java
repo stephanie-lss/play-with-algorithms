@@ -70,21 +70,21 @@ public class QuickSort {
     }
 
     public static void main(String[] args) {
-        int n = 1000000;
+        int n = 100000;
         Integer[] arr = SortTestHelper.generateRandomArray(n, 0, n);
         Integer[] arr2 = Arrays.copyOfRange(arr, 0, arr.length);
-        SortTestHelper.testSort("QuickSort", arr);
+        SortTestHelper.testSort("QuickSort2", arr);
         SortTestHelper.testSort("MergeSort", arr2);
 
         //测试基本有序的数组
         Integer[] arr3 = SortTestHelper.generateNearlyOrderedArray(n, 100);
         Integer[] arr4 = Arrays.copyOfRange(arr3, 0, arr3.length);
-        SortTestHelper.testSort("QuickSort", arr3);
+        SortTestHelper.testSort("QuickSort2", arr3);
         SortTestHelper.testSort("MergeSort", arr4);
 
         Integer[] arr5 = SortTestHelper.generateRandomArray(n, 0, 10);
         Integer[] arr6 = Arrays.copyOfRange(arr5, 0, arr5.length);
-        SortTestHelper.testSort("QuickSort", arr5);
+        SortTestHelper.testSort("QuickSort2", arr5);
         SortTestHelper.testSort("MergeSort", arr6);
 
 
