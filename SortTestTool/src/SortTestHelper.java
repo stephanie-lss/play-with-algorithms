@@ -40,12 +40,12 @@ public class SortTestHelper {
         return;
     }
 
-    public static void testSort(String sortClassName, Comparable[] arr) {
+    public static void testSort(String sortClassName, Integer[] arr) {
         try {
             // 通过sortClassName获得排序函数的Class对象
             Class sortClass = Class.forName(sortClassName);
             // 通过排序函数的Class对象获得排序方法
-            Method sortMethod = sortClass.getMethod("sort", new Class[]{Comparable[].class});
+            Method sortMethod = sortClass.getMethod("sort", new Class[]{Integer[].class});
             // 排序参数只有一个，是可比较数组arr
             Object[] params = new Object[]{arr};
 
