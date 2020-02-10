@@ -6,10 +6,10 @@ public class HeapSort1 {
 
     public static void sort(Integer[] arr) {
         int n = arr.length;
-        MaxHeap<Integer> maxHeap = new MaxHeap<>(arr);
-        /*for (int i = 0; i < n; i++) {
+        MaxHeap<Integer> maxHeap = new MaxHeap<>(n);
+        for (int i = 0; i < n; i++) {
             maxHeap.add(arr[i]);
-        }*/
+        }
         for (int i = n - 1; i >= 0; i--) {
             arr[i] = maxHeap.extractMax();
         }
