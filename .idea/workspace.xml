@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a3913d8-fccb-478a-a5f7-be86afc0db19" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/MaxHeap/src/HeapSort1.java" beforeDir="false" afterPath="$PROJECT_DIR$/MaxHeap/src/HeapSort1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Binary-Search-Tree/Binary-Search-Tree.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,26 +28,13 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/MaxHeap/src/IndexMaxHeap.java">
+        <entry file="file://$PROJECT_DIR$/Binary-Search-Tree/src/BST.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="58" column="28" selection-start-line="58" selection-start-column="28" selection-end-line="58" selection-end-column="28" />
+            <state relative-caret-position="551">
+              <caret line="29" column="6" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
               <folding>
-                <element signature="e#783#784#0" expanded="true" />
-                <element signature="e#848#849#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MaxHeap/src/MaxHeap.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-              <folding>
-                <element signature="e#159#160#0" expanded="true" />
-                <element signature="e#203#204#0" expanded="true" />
+                <element signature="e#557#558#0" expanded="true" />
+                <element signature="e#623#624#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -93,6 +82,8 @@
         <option value="$PROJECT_DIR$/MaxHeap/src/HeapSort.java" />
         <option value="$PROJECT_DIR$/MaxHeap/src/MaxHeap.java" />
         <option value="$PROJECT_DIR$/MaxHeap/src/IndexMaxHeap.java" />
+        <option value="$PROJECT_DIR$/Binary-Search-Tree/src/BinarySearch.java" />
+        <option value="$PROJECT_DIR$/Binary-Search-Tree/src/BST.java" />
       </list>
     </option>
   </component>
@@ -114,9 +105,9 @@
     <option name="jreName" value="1.8" />
     <option name="vmOptions" value="-DarchetypeCatalog=internal -Dfile.encoding=GB2312" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="205" />
-    <option name="y" value="76" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="819" />
+    <option name="y" value="178" />
     <option name="width" value="1265" />
     <option name="height" value="1100" />
   </component>
@@ -131,29 +122,20 @@
           <expand>
             <path>
               <item name="play-with-algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="InsertionSort" type="462c0819:PsiDirectoryNode" />
+              <item name="Binary-Search-Tree" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="play-with-algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="InsertionSort" type="462c0819:PsiDirectoryNode" />
+              <item name="Binary-Search-Tree" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="play-with-algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MaxHeap" type="462c0819:PsiDirectoryNode" />
+              <item name="MergeSort" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="play-with-algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MaxHeap" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="play-with-algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Sorting-Basic" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="play-with-algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Sorting-Basic" type="462c0819:PsiDirectoryNode" />
+              <item name="MergeSort" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -206,7 +188,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SelectionSort">
+  <component name="RunManager" selected="Application.BinarySearch">
+    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BinarySearch" />
+      <module name="Binary-Search-Tree" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HeapSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HeapSort" />
       <module name="MaxHeap" />
@@ -228,13 +217,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrintableMaxHeap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PrintableMaxHeap" />
-      <module name="MaxHeap" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SelectionSort" />
       <module name="Sorting-Basic" />
@@ -244,11 +226,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BinarySearch" />
         <item itemvalue="Application.SelectionSort" />
         <item itemvalue="Application.HeapSort" />
         <item itemvalue="Application.HeapSort1" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.PrintableMaxHeap" />
       </list>
     </recent_temporary>
   </component>
@@ -265,18 +247,18 @@
       <workItem from="1578490452056" duration="4119000" />
       <workItem from="1578537596322" duration="2764000" />
       <workItem from="1578556055916" duration="50737000" />
-      <workItem from="1581299454000" duration="16976000" />
+      <workItem from="1581299454000" duration="22673000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74596000" />
+    <option name="totallyTimeSpent" value="80293000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="205" y="76" width="1265" height="1100" extended-state="1" />
+    <frame x="819" y="178" width="1265" height="1100" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16153206" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16153206" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -285,15 +267,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3298647" />
-      <window_info anchor="bottom" id="Debug" order="2" weight="0.38262668" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.25598335" />
+      <window_info anchor="bottom" id="Debug" order="2" weight="0.3816794" />
+      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.24349636" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32574975" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32497275" />
       <window_info anchor="bottom" id="Problems" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" />
@@ -412,13 +394,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/homework/src/QuickSort.java" />
-    <entry file="file://$PROJECT_DIR$/MergeSort/src/MergeSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="48" column="13" lean-forward="true" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/homework/src/ReverseCount.java" />
     <entry file="file://$PROJECT_DIR$/MergeSort/src/MergeSort2.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -547,7 +522,7 @@
     <entry file="file://$PROJECT_DIR$/MaxHeap/src/MaxHeap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
-          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
           <folding>
             <element signature="e#159#160#0" expanded="true" />
             <element signature="e#203#204#0" expanded="true" />
@@ -562,6 +537,31 @@
           <folding>
             <element signature="e#783#784#0" expanded="true" />
             <element signature="e#848#849#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MergeSort/src/MergeSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Binary-Search-Tree/src/BinarySearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="35" column="9" lean-forward="true" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Binary-Search-Tree/src/BST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="29" column="6" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
+          <folding>
+            <element signature="e#557#558#0" expanded="true" />
+            <element signature="e#623#624#0" expanded="true" />
           </folding>
         </state>
       </provider>
