@@ -6,9 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8a3913d8-fccb-478a-a5f7-be86afc0db19" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Binary-Search-Tree/src/BST.java" beforeDir="false" afterPath="$PROJECT_DIR$/Binary-Search-Tree/src/BST.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Binary-Search-Tree/BST$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Binary-Search-Tree/BST$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Binary-Search-Tree/BST.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Binary-Search-Tree/BST.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,7 +24,48 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Graph/src/DenseGraph.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="972">
+              <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#472#473#0" expanded="true" />
+                <element signature="e#518#519#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Graph/src/SparseGraph.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="307">
+              <caret line="40" column="12" lean-forward="true" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#518#519#0" expanded="true" />
+                <element signature="e#564#565#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Graph/src/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="43" column="9" lean-forward="true" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -74,6 +112,9 @@
         <option value="$PROJECT_DIR$/Binary-Search-Tree/src/FileOperations.java" />
         <option value="$PROJECT_DIR$/Binary-Search-Tree/src/Main.java" />
         <option value="$PROJECT_DIR$/Binary-Search-Tree/src/BST.java" />
+        <option value="$PROJECT_DIR$/Graph/src/SparseGraph.java" />
+        <option value="$PROJECT_DIR$/Graph/src/DenseGraph.java" />
+        <option value="$PROJECT_DIR$/Graph/src/Main.java" />
       </list>
     </option>
   </component>
@@ -95,9 +136,9 @@
     <option name="jreName" value="1.8" />
     <option name="vmOptions" value="-DarchetypeCatalog=internal -Dfile.encoding=GB2312" />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="745" />
-    <option name="y" value="133" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="753" />
+    <option name="y" value="150" />
     <option name="width" value="1146" />
     <option name="height" value="1100" />
   </component>
@@ -108,7 +149,22 @@
     <panes>
       <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="play-with-algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Graph" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="play-with-algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Graph" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -116,7 +172,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Binary-Search-Tree/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Graph/src" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -131,18 +187,19 @@
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.ActionScript" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\GitHub\play-with-algorithms\Graph\src" />
+      <recent name="G:\GitHub\play-with-algorithms\Binary-Search-Tree\src" />
+      <recent name="F:\Github\play-with-algorithms\Sorting-Basic\src" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="G:\GitHub\play-with-algorithms\Binary-Search-Tree\src" />
       <recent name="G:\GitHub\play-with-algorithms\Binary-Search-Tree" />
       <recent name="F:\Github\play-with-algorithms\homework\src" />
       <recent name="F:\Github\play-with-algorithms\homework" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="G:\GitHub\play-with-algorithms\Binary-Search-Tree\src" />
-      <recent name="F:\Github\play-with-algorithms\Sorting-Basic\src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -157,7 +214,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BinarySearch" />
       <module name="Binary-Search-Tree" />
@@ -165,16 +222,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HeapSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HeapSort" />
-      <module name="MaxHeap" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HeapSort1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HeapSort1" />
-      <module name="MaxHeap" />
+    <configuration name="DenseGraph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DenseGraph" />
+      <module name="Graph" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -182,6 +232,13 @@
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Binary-Search-Tree" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Graph" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -195,11 +252,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.DenseGraph" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.BinarySearch" />
         <item itemvalue="Application.SelectionSort" />
-        <item itemvalue="Application.HeapSort" />
-        <item itemvalue="Application.HeapSort1" />
       </list>
     </recent_temporary>
   </component>
@@ -220,17 +277,18 @@
       <workItem from="1581387813687" duration="1917000" />
       <workItem from="1581390078118" duration="7109000" />
       <workItem from="1581410221793" duration="597000" />
-      <workItem from="1581432195048" duration="1256000" />
+      <workItem from="1581432195048" duration="5472000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91172000" />
+    <option name="totallyTimeSpent" value="95388000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="745" y="133" width="1146" height="1100" extended-state="0" />
+    <frame x="-8" y="32" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17467652" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.100961536" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -239,8 +297,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3298647" />
-      <window_info anchor="bottom" id="Debug" order="2" weight="0.35550708" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.2431843" />
+      <window_info anchor="bottom" id="Debug" order="2" weight="0.37186477" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.31842965" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -580,6 +638,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Graph/src/DenseGraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="972">
+          <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#472#473#0" expanded="true" />
+            <element signature="e#518#519#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Graph/src/SparseGraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="40" column="12" lean-forward="true" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#518#519#0" expanded="true" />
+            <element signature="e#564#565#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Graph/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="43" column="9" lean-forward="true" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
@@ -630,7 +722,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>MaxHeap</last-edited>
+          <last-edited>Homework</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
