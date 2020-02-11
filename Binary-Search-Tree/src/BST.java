@@ -27,9 +27,28 @@ public class BST<K extends Comparable<K>, V> {
 
     public int size() {
         return count;
-    } 
+    }
 
     public boolean isEmpty() {
         return count == 0;
+    }
+
+    public void insert(K key, V value) {
+        root = insert(key, value, root);
+    }
+
+    private Node insert(K key, V value, Node node) {
+        if (node == null) {
+            count++;
+            return new Node(key, value);
+        }
+        if (node.key.compareTo(key) == 0) {
+            node.value = value;
+        } else if (node.key.compareTo(key) > 0) {
+            node.left = insert(key, value, node.left);
+        } else {
+            node.right = insert(key, value, node.right);
+        }
+        return node;
     }
 }

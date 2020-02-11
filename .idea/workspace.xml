@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a3913d8-fccb-478a-a5f7-be86afc0db19" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Binary-Search-Tree/Binary-Search-Tree.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Binary-Search-Tree/src/BST.java" beforeDir="false" afterPath="$PROJECT_DIR$/Binary-Search-Tree/src/BST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Binary-Search-Tree/BinarySearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Binary-Search-Tree/BinarySearch.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,11 +30,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Binary-Search-Tree/src/BST.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="551">
-              <caret line="29" column="6" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
+            <state relative-caret-position="352">
+              <caret line="35" column="38" lean-forward="true" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="38" />
               <folding>
+                <element signature="e#529#530#0" expanded="true" />
                 <element signature="e#557#558#0" expanded="true" />
-                <element signature="e#623#624#0" expanded="true" />
+                <element signature="e#664#665#0" expanded="true" />
+                <element signature="e#711#712#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -105,17 +107,18 @@
     <option name="jreName" value="1.8" />
     <option name="vmOptions" value="-DarchetypeCatalog=internal -Dfile.encoding=GB2312" />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="819" />
-    <option name="y" value="178" />
-    <option name="width" value="1265" />
-    <option name="height" value="1100" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="831" />
+    <option name="y" value="98" />
+    <option name="width" value="1075" />
+    <option name="height" value="994" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -142,7 +145,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -248,17 +250,18 @@
       <workItem from="1578537596322" duration="2764000" />
       <workItem from="1578556055916" duration="50737000" />
       <workItem from="1581299454000" duration="22673000" />
+      <workItem from="1581387813687" duration="1917000" />
+      <workItem from="1581390078118" duration="421000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80293000" />
+    <option name="totallyTimeSpent" value="82631000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="819" y="178" width="1265" height="1100" extended-state="0" />
-    <editor active="true" />
+    <frame x="831" y="98" width="1075" height="994" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16153206" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19881305" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -557,11 +560,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Binary-Search-Tree/src/BST.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="29" column="6" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
+        <state relative-caret-position="352">
+          <caret line="35" column="38" lean-forward="true" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="38" />
           <folding>
+            <element signature="e#529#530#0" expanded="true" />
             <element signature="e#557#558#0" expanded="true" />
-            <element signature="e#623#624#0" expanded="true" />
+            <element signature="e#664#665#0" expanded="true" />
+            <element signature="e#711#712#0" expanded="true" />
           </folding>
         </state>
       </provider>
