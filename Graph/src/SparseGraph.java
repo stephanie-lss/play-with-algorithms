@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
 /**
@@ -6,7 +7,7 @@ import java.util.List;
  * @date 2020/2/11 23:24
  * 稀疏图——邻接表
  */
-public class SparseGraph {
+public class SparseGraph implements Graph {
     private int n, m;
     private boolean directed;
     private List<Integer>[] g;
@@ -22,14 +23,17 @@ public class SparseGraph {
 
     }
 
+    @Override
     public int V() {
         return n;
     }
 
+    @Override
     public int E() {
         return m;
     }
 
+    @Override
     public void addEdge(int v, int w) {
         if (v < 0 || v >= n || w < 0 || w >= n) {
             throw new IllegalArgumentException("Error");
@@ -41,6 +45,7 @@ public class SparseGraph {
         m++;
     }
 
+    @Override
     public boolean hasEdge(int v, int w) {
         if (v < 0 || v >= n || w < 0 || w >= n) {
             throw new IllegalArgumentException("Error");
@@ -54,10 +59,22 @@ public class SparseGraph {
     }
 
     //返回图中一个顶点的所以邻边
+    @Override
     public Iterable<Integer> adj(int v) {
         if (v < 0 || v >= n) {
             throw new IllegalArgumentException("Error");
         }
         return g[v];
+    }
+
+    public void show() {
+        for (int i = 0; i < n; i++) {
+            Iterator<Integer> iterator = g[i].iterator();
+            System.out.print("vertex " + i + "：");
+            while (iterator.hasNext()) {
+                System.out.print(iterator.next() + "\t");
+            }
+            System.out.println();
+        }
     }
 }

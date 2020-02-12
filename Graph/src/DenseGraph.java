@@ -6,7 +6,7 @@ import java.util.List;
  * @date 2020/2/11 23:11
  * 稠密图——邻接矩阵
  */
-public class DenseGraph {
+public class DenseGraph implements Graph {
     //n为顶点数，m为边数
     private int n, m;
     //是否为有向图
@@ -21,14 +21,17 @@ public class DenseGraph {
         this.g = new boolean[n][n];
     }
 
+    @Override
     public int V() {
         return n;
     }
 
+    @Override
     public int E() {
         return m;
     }
 
+    @Override
     public void addEdge(int v, int w) {
         if (v < 0 || v >= n || w < 0 || w >= n) {
             throw new IllegalArgumentException("Error");
@@ -43,6 +46,7 @@ public class DenseGraph {
         m++;
     }
 
+    @Override
     public boolean hasEdge(int v, int w) {
         if (v < 0 || v >= n || w < 0 || w >= n) {
             throw new IllegalArgumentException("Error");
@@ -50,6 +54,7 @@ public class DenseGraph {
         return g[v][w];
     }
 
+    @Override
     public Iterable<Integer> adj(int v) {
         if (v < 0 || v >= n) {
             throw new IllegalArgumentException("Error");
@@ -61,5 +66,15 @@ public class DenseGraph {
             }
         }
         return adjV;
+    }
+
+    public void show() {
+        for (int i = 0; i < n; i++) {
+            System.out.print("vertex " + i + "：");
+            for (int j = 0; j < n; j++) {
+                System.out.print(g[i][j] + "\t");
+            }
+            System.out.println();
+        }
     }
 }

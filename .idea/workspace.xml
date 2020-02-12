@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="8a3913d8-fccb-478a-a5f7-be86afc0db19" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Graph/src/DenseGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/Graph/src/DenseGraph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Graph/src/SparseGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/Graph/src/SparseGraph.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,41 +28,35 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Graph/src/DenseGraph.java">
+        <entry file="file://$PROJECT_DIR$/Graph/src/ShortestPath.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="972">
-              <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
+            <state relative-caret-position="334">
+              <caret line="69" column="22" lean-forward="true" selection-start-line="69" selection-start-column="22" selection-end-line="69" selection-end-column="22" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#472#473#0" expanded="true" />
-                <element signature="e#518#519#0" expanded="true" />
+                <element signature="e#1790#1791#0" expanded="true" />
+                <element signature="e#1819#1820#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Graph/src/SparseGraph.java">
+        <entry file="file://$PROJECT_DIR$/Graph/src/Path.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
-              <caret line="40" column="12" lean-forward="true" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
+            <state relative-caret-position="342">
+              <caret line="57" column="34" lean-forward="true" selection-start-line="57" selection-start-column="34" selection-end-line="57" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#518#519#0" expanded="true" />
-                <element signature="e#564#565#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Graph/src/Main.java">
+        <entry file="file://$PROJECT_DIR$/Graph/src/Main4.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="43" column="9" lean-forward="true" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="285">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
@@ -70,6 +66,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -112,9 +109,17 @@
         <option value="$PROJECT_DIR$/Binary-Search-Tree/src/FileOperations.java" />
         <option value="$PROJECT_DIR$/Binary-Search-Tree/src/Main.java" />
         <option value="$PROJECT_DIR$/Binary-Search-Tree/src/BST.java" />
-        <option value="$PROJECT_DIR$/Graph/src/SparseGraph.java" />
-        <option value="$PROJECT_DIR$/Graph/src/DenseGraph.java" />
         <option value="$PROJECT_DIR$/Graph/src/Main.java" />
+        <option value="$PROJECT_DIR$/Graph/src/Graph.java" />
+        <option value="$PROJECT_DIR$/Graph/src/ReadGraph.java" />
+        <option value="$PROJECT_DIR$/Graph/src/Main2.java" />
+        <option value="$PROJECT_DIR$/Graph/src/DenseGraph.java" />
+        <option value="$PROJECT_DIR$/Graph/src/Main3.java" />
+        <option value="$PROJECT_DIR$/Graph/src/Components.java" />
+        <option value="$PROJECT_DIR$/Graph/src/SparseGraph.java" />
+        <option value="$PROJECT_DIR$/Graph/src/Main4.java" />
+        <option value="$PROJECT_DIR$/Graph/src/ShortestPath.java" />
+        <option value="$PROJECT_DIR$/Graph/src/Path.java" />
       </list>
     </option>
   </component>
@@ -136,9 +141,9 @@
     <option name="jreName" value="1.8" />
     <option name="vmOptions" value="-DarchetypeCatalog=internal -Dfile.encoding=GB2312" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="753" />
-    <option name="y" value="150" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="958" />
+    <option name="y" value="81" />
     <option name="width" value="1146" />
     <option name="height" value="1100" />
   </component>
@@ -148,7 +153,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -165,6 +169,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -187,19 +192,20 @@
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.ActionScript" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="G:\GitHub\play-with-algorithms\Graph\src" />
-      <recent name="G:\GitHub\play-with-algorithms\Binary-Search-Tree\src" />
-      <recent name="F:\Github\play-with-algorithms\Sorting-Basic\src" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="G:\GitHub\play-with-algorithms\Binary-Search-Tree\src" />
       <recent name="G:\GitHub\play-with-algorithms\Binary-Search-Tree" />
       <recent name="F:\Github\play-with-algorithms\homework\src" />
       <recent name="F:\Github\play-with-algorithms\homework" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\GitHub\play-with-algorithms\Graph\src" />
+      <recent name="G:\GitHub\play-with-algorithms\Graph" />
+      <recent name="G:\GitHub\play-with-algorithms\Binary-Search-Tree\src" />
+      <recent name="F:\Github\play-with-algorithms\Sorting-Basic\src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -214,24 +220,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BinarySearch" />
-      <module name="Binary-Search-Tree" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Main4">
     <configuration name="DenseGraph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DenseGraph" />
       <module name="Graph" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="Binary-Search-Tree" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -243,20 +235,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SelectionSort" />
-      <module name="Sorting-Basic" />
+    <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main2" />
+      <module name="Graph" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main3" />
+      <module name="Graph" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main4" />
+      <module name="Graph" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main4" />
+        <item itemvalue="Application.Main3" />
+        <item itemvalue="Application.Main2" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.DenseGraph" />
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.BinarySearch" />
-        <item itemvalue="Application.SelectionSort" />
       </list>
     </recent_temporary>
   </component>
@@ -278,17 +284,18 @@
       <workItem from="1581390078118" duration="7109000" />
       <workItem from="1581410221793" duration="597000" />
       <workItem from="1581432195048" duration="5472000" />
+      <workItem from="1581478367194" duration="12724000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95388000" />
+    <option name="totallyTimeSpent" value="108112000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="32" width="1936" height="1056" extended-state="6" />
+    <frame x="958" y="81" width="1146" height="1100" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.100961536" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17652495" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -297,8 +304,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3298647" />
-      <window_info anchor="bottom" id="Debug" order="2" weight="0.37186477" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.31842965" />
+      <window_info anchor="bottom" id="Debug" order="2" weight="0.37148803" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.31841832" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -356,24 +363,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://D:/Java/jdk1.8.0_191/src.zip!/java/lang/String.java" />
-    <entry file="jar://D:/Java/jdk1.8.0_191/src.zip!/java/lang/Comparable.java" />
-    <entry file="file://$PROJECT_DIR$/InsertionSort/src/SelectionSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Java/jdk1.8.0_191/src.zip!/java/lang/Math.java" />
-    <entry file="file://$PROJECT_DIR$/InsertionSort/src/SortTestHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/homework/src/SortTestHelper.java" />
     <entry file="file://$PROJECT_DIR$/homework/src/BubbleSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
@@ -613,13 +602,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Java/jdk1.8.0_181/src.zip!/java/util/Queue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="184" column="74" lean-forward="true" selection-start-line="184" selection-start-column="74" selection-end-line="184" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Binary-Search-Tree/src/BST.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3933">
@@ -638,37 +620,129 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Graph/src/DenseGraph.java">
+    <entry file="file://$PROJECT_DIR$/Graph/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="972">
-          <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
+        <state relative-caret-position="738">
+          <caret line="43" column="9" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#472#473#0" expanded="true" />
-            <element signature="e#518#519#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Graph/testG2.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Graph/testG1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Graph/src/Graph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Graph/src/Main2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="25" column="32" lean-forward="true" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Graph/src/Components.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="32" column="9" lean-forward="true" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
+          <folding>
+            <element signature="e#770#771#0" expanded="true" />
+            <element signature="e#799#800#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Graph/src/Main3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Graph/testG.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Graph/src/DenseGraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="70" column="24" lean-forward="true" selection-start-line="70" selection-start-column="24" selection-end-line="70" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Graph/src/SparseGraph.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="40" column="12" lean-forward="true" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
+        <state relative-caret-position="180">
+          <caret line="63" column="30" lean-forward="true" selection-start-line="63" selection-start-column="30" selection-end-line="63" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#518#519#0" expanded="true" />
-            <element signature="e#564#565#0" expanded="true" />
+            <element signature="e#552#553#0" expanded="true" />
+            <element signature="e#576#577#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Graph/src/Main.java">
+    <entry file="jar://D:/Java/jdk1.8.0_181/src.zip!/java/util/Queue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="43" column="9" lean-forward="true" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
+        <state relative-caret-position="328">
+          <caret line="204" column="6" lean-forward="true" selection-start-line="204" selection-start-column="6" selection-end-line="204" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Graph/src/ReadGraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="16" column="20" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Graph/src/ShortestPath.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="69" column="22" lean-forward="true" selection-start-line="69" selection-start-column="22" selection-end-line="69" selection-end-column="22" />
+          <folding>
+            <element signature="e#1790#1791#0" expanded="true" />
+            <element signature="e#1819#1820#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Graph/src/Path.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="57" column="34" lean-forward="true" selection-start-line="57" selection-start-column="34" selection-end-line="57" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Graph/src/Main4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
