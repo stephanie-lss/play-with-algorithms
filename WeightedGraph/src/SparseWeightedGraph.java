@@ -58,7 +58,6 @@ public class SparseWeightedGraph<Weight extends Number & Comparable> implements 
         return false;
     }
 
-    //返回图中一个顶点的所以邻边
     @Override
     public Iterable<Edge<Weight>> adj(int v) {
         if (v < 0 || v >= n) {

@@ -12,7 +12,7 @@ public class DenseWeightedGraph<Weight extends Number & Comparable>
     //是否为有向图
     private boolean directed;
     //邻接矩阵
-    public Edge<Weight>[][] g;
+    private Edge<Weight>[][] g;
 
     public DenseWeightedGraph(int n, boolean directed) {
         this.n = n;
@@ -57,7 +57,7 @@ public class DenseWeightedGraph<Weight extends Number & Comparable>
         if (v < 0 || v >= n || w < 0 || w >= n) {
             throw new IllegalArgumentException("Error");
         }
-        return !(g[v][w] == null);
+        return g[v][w] != null;
     }
 
     @Override
