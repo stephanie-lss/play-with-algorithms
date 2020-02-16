@@ -61,7 +61,7 @@ public class IndexMinHeap<Item extends Comparable> {
         reverse[indexes[j]] = j;
     }
 
-    private boolean contain(int i) {
+    public boolean contain(int i) {
         return reverse[i + 1] != 0;
     }
 
